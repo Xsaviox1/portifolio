@@ -1,0 +1,21 @@
+footer{
+    background-color: #0F0F0F;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    padding: 1% 0 1% 0;
+    width: 100vw;
+}
+footer p{
+    margin-left: 5%;
+}
+.sociais{
+    margin-right: 5%;
+    font-size: 2em;
+}
+.sociais i{
+    color: white;
+}
+.sociais i:hover{
+    color: #8a2be2;
+}

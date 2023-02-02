@@ -1,0 +1,54 @@
+.caixas{
+    display: grid ;
+    grid-template-columns: repeat(3,2fr);
+    grid-auto-rows: 80%;
+    grid-gap: 4% 15%;
+    padding: 4% 5%;
+    width: 30vw;
+    font-size: 5vw;
+    max-width: 40vw;
+}
+.box{
+    width: 8vw;
+    height: 8vw;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 900;
+}
+h3{
+    padding: 4% 0 0 3%;
+    color: white;
+}
+.servicos{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 5%;
+}
+.atividades{
+    max-width: 40vw;
+    color: white;
+    font-weight: 600;
+    padding-right: 3%;
+}
+.backTres{
+    background-image: linear-gradient(
+        170deg,
+        
+        black 200%,
+        #8a2be2 50%
+    );
+    background-size: 100vw;
+    height: 100vh;
+}
+.organizacao{
+    display: flex;
+    align-items: center;
+}

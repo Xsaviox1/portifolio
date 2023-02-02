@@ -1,0 +1,70 @@
+header{
+    text-align:unset;
+    max-width: 100%;
+    padding-top: 0%;
+    padding-left: 1%;
+    position:fixed;
+    display: block;
+    background-color: #010205;
+    width: 100%;
+}
+.cabecalho-link a{
+    color: #ADFF2F;
+    font-size: 70%;
+}
+.cabecalho-link a:hover{
+    color: white;
+    transition: 1s all;
+}
+.logo{
+    color: greenyellow;
+    height: 2rem;  
+    width: 2rem;
+    background: transparent;
+    border: solid 0.13rem;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+button{
+    color:#ADFF2F;
+    background: transparent;
+    border: solid 0.1rem;
+    border-radius: 3vh;
+    width: 12.8vh;
+    height: 4vh;
+    cursor: pointer;
+    font-size: 100%;
+    margin-right: 2.8em;
+}
+button:hover{
+    background-color:#ADFF2F;
+    border-color: #ADFF2F;
+    color:white;
+    transition: 1s;
+}
+.cabecalho-link{
+    display: inline-flex;
+    gap: 2%;
+    font-weight: 400;
+    cursor: pointer; 
+}
+.cabecalho-link a{
+    color: #ADFF2F;
+    font-size: 70%;
+}
+.cabecalho-link a:hover{
+    color: white;
+    transition: 1s all;
+}
+.menu{
+    display: none;
+}
