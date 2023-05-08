@@ -50,3 +50,7 @@ h4{
     place-content: center;
     
 }
+#card1::before {
+    content: 'Relógio Digital';
+    color: #E8623C;
+}
